@@ -1,0 +1,7 @@
+(define (folder f z xs)
+  (if(null? xs)
+     z
+     (f (car xs) (folder f z (cdr xs)))))
+(folder + 0 ' (1 2 3 4 ))
+
+; recursion
