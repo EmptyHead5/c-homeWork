@@ -5,3 +5,5 @@
 (folder + 0 ' (1 2 3 4 ))
 
 ; recursion
+; function can easyly use for mutiple,add min, diveries, but need to attion with start number z,when user use function to calculate 
+; mutiple and diveries
