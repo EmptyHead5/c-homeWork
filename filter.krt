@@ -1,0 +1,9 @@
+(define (filter p? xs)
+  (if (null? xs)
+      '()
+      (if (p? (car xs))
+           (cons (car xs)(filter p?( cdr xs)))
+           (filter p? (cdr xs)))))
+(filter number? '(1 b 3 d e 7))
+
+; filter ues to select p?(condition) to restore as a new list
